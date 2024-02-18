@@ -31,7 +31,7 @@ body {
 }
 
 .top .nav .buttons .link:hover,
-.top .nav .buttons .link:active {
+.top .nav .buttons .link:focus {
   color: #404bbf;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 .top .address .link:hover,
-.top .address .link:active {
+.top .address .link:focus {
   color: #404bbf;
 }
 
@@ -139,6 +139,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .portfolio .card .text {
