@@ -1,6 +1,7 @@
 body {
-  font-family: "Roboto", "Helvetica Neue", "Verdana", sans-serif;
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .top {
@@ -11,20 +12,38 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.166666666666667;
-}
-
-.top .nav .web {
+  line-height: 1.17;
+  letter-spacing: 3px;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 
-.top .nav .buttons {
-  font-weight: 500;
-  line-height: 1.5;
+.top .nav .text {
+  color: #2e2f42;
 }
 
-.top .address {
+.top .nav .buttons .link {
+  font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 2px;
+  color: #2e2f42;
+}
+
+.top .nav .buttons .link:hover,
+.top .nav .buttons .link:active {
+  color: #404bbf;
+}
+
+.top .address .link {
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 2px;
+  color: #434455;
+}
+
+.top .address .link:hover,
+.top .address .link:active {
+  color: #404bbf;
 }
 
 .main {
@@ -43,6 +62,7 @@ body {
   line-height: 1.5;
   color: #ffffff;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 
 .main .button:hover,
@@ -54,20 +74,26 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 2px;
 }
 
 .features .text {
   line-height: 1.5;
+  letter-spacing: 2px;
+  color: #434455;
 }
 
 .team {
   background-color: #f4f4fd;
 }
 
-.team- .title {
+.team .title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.111111111111111;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: capitalize;
 }
 
 .team .card {
@@ -78,16 +104,34 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 2px;
 }
 
 .team .card .text {
   line-height: 1.5;
+  letter-spacing: 2px;
+  color: #434455;
 }
 
 .portfolio .title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.111111111111111;
+  line-height: 1.11;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.portfolio .title .heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 2px;
+}
+
+.portfolio .title .text {
+  line-height: 1.5;
+  letter-spacing: 2px;
+  color: #434455;
 }
 
 .footer {
@@ -98,13 +142,18 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.166666666666667;
+  line-height: 1.17;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer .logo .text {
+  color: #f4f4fd;
 }
 
 .footer .text {
   line-height: 1.5;
-}
-
-.footer .logo .web {
-  color: #4d5ae5;
+  color: #f4f4fd;
+  letter-spacing: 2px;
 }
