@@ -1,0 +1,110 @@
+body {
+  font-family: "Roboto", "Helvetica Neue", "Verdana", sans-serif;
+  color: #2e2f42;
+}
+
+.top {
+  background-color: #e7e9fc;
+}
+
+.top .nav {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.166666666666667;
+}
+
+.top .nav .web {
+  color: #4d5ae5;
+}
+
+.top .nav .buttons {
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.top .address {
+  line-height: 1.5;
+}
+
+.main {
+  background-color: #2e2f42;
+}
+
+.main .title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.071428571428571;
+  color: #ffffff;
+}
+
+.main .button {
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+
+.main .button:hover,
+.main .button:focus {
+  background-color: #404bbf;
+}
+
+.features .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.features .text {
+  line-height: 1.5;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team- .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.111111111111111;
+}
+
+.team .card {
+  background-color: #ffffff;
+}
+
+.team .card .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.team .card .text {
+  line-height: 1.5;
+}
+
+.portfolio .title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.111111111111111;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer .logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.166666666666667;
+}
+
+.footer .text {
+  line-height: 1.5;
+}
+
+.footer .logo .web {
+  color: #4d5ae5;
+}
