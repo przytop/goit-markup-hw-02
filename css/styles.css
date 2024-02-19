@@ -4,8 +4,13 @@ body {
   background-color: #ffffff;
 }
 
-.top {
-  background-color: #e7e9fc;
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
 }
 
 .top .nav .logo {
